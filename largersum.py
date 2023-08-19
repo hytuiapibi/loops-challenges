@@ -1,8 +1,10 @@
-#Define the function to accept two input parameters: lst1 and lst2
-#Create two variables to record the two sums
-#Loop through the first list and add up all of the numbers
-#Loop through the second list and add up all of the numbers
-#Compare the first and second sum and return the list with the greater sum
+# Define the function to accept two input parameters: lst1 and lst2
+# Create two variables to record the two sums
+# Loop through the first list and add up all of the numbers
+# Loop through the second list and add up all of the numbers
+# Compare the first and second sum and return the list with the greater sum
+
+# My solution:
 
 def larger_sum(lst1, lst2):
   sum1 = 0
@@ -15,3 +17,6 @@ def larger_sum(lst1, lst2):
     return lst1
   else:
     return lst2
+
+# Test:
+print(larger_sum([1, 9, 5], [2, 3, 7]))
